@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
         VisualizationWallpapers \
         librs_jni
 
+# Droid Concepts bootanimation...Credit JaeKar
+PRODUCT_COPY_FILES +=  \
+    vendor/Droid_Concepts/prebuilt/common/media/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_COPY_FILES += \
 	device/lge/mako/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
 	device/lge/mako/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
